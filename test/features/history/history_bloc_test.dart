@@ -39,6 +39,9 @@ void main() {
             targetLang: 'vi',
             originalText: 'a',
             translatedText: 'b',
+            summaryJson: null,
+            originalImagePath: '/tmp/a.png',
+            renderedImagePath: '/tmp/a.png',
           ),
         ],
       );

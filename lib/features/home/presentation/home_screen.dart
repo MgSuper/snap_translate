@@ -14,20 +14,15 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            FilledButton.icon(
-              onPressed: () => context.push(AppRoutes.scan),
-              icon: const Icon(Icons.document_scanner),
-              label: const Text('Scan Receipt'),
+            FilledButton(
+              onPressed: () => context.push(AppRoutes.cameraTranslate),
+              child: const Text('Camera Translate'),
             ),
             const SizedBox(height: 12),
             OutlinedButton.icon(
               onPressed: () => context.push(AppRoutes.history),
               icon: const Icon(Icons.history),
               label: const Text('Scan History'),
-            ),
-            FilledButton(
-              onPressed: () => context.push(AppRoutes.cameraTranslate),
-              child: const Text('Camera Translate'),
             ),
             const Spacer(),
             Text(

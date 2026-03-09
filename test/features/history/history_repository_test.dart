@@ -54,6 +54,9 @@ void main() {
         targetLang: 'vi',
         originalText: 'Total 100',
         translatedText: 'Tổng 100',
+        summaryJson: null,
+        originalImagePath: '/tmp/a.png',
+        renderedImagePath: '/tmp/a.png',
       ),
     );
 
@@ -75,6 +78,9 @@ void main() {
         targetLang: 'vi',
         originalText: 'old',
         translatedText: 'old',
+        summaryJson: null,
+        originalImagePath: '/tmp/a.png',
+        renderedImagePath: '/tmp/a.png',
       ),
     );
 
@@ -86,6 +92,9 @@ void main() {
         targetLang: 'vi',
         originalText: 'new',
         translatedText: 'new',
+        summaryJson: null,
+        originalImagePath: '/tmp/a.png',
+        renderedImagePath: '/tmp/a.png',
       ),
     );
 
